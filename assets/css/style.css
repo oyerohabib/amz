@@ -26,6 +26,18 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.card {
+  border-radius: 0;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.card-img {
+  border-radius: 0;
+}
+
 #topbar {
   background: #545454;
   padding: 10px 0;
@@ -113,7 +125,8 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 55px;
+  min-width: 150px;
 }
 
 /*--------------------------------------------------------------
@@ -762,11 +775,6 @@ section {
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
   color: #fff;
-}
-
-#biggy .biggy .big img {
-  height: 30%;
-  width: 100%;
 }
 
 /*--------------------------------------------------------------
