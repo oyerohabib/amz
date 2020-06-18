@@ -15,7 +15,6 @@
   |Raleway:300,300i,400,400i,500,500i,600,600i,700,700i
   |Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -23,55 +22,243 @@
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/sidenav.min.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container-fluid d-flex">
+  <header id="header mb-0" style="background-color: #131921;">
+    <div class="">
+		<nav class="navbar navbar-expand-xl">
 
-      <div class="logo mr-auto">
-       <a href="index.html"><img src="assets/img/amazon-ar21.svg" alt="" class="img-fluid"></a>
-      </div>
+			<span>
+				<a href="javascript:;" class="toggle" id="sidenav-toggle">
+				<i class="icofont-navigation-menu text-light icofont-2x mr-2"></i>
+				</a>
+			</span>
 
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-
-          <li class="drop-down"><a href="#">About</a>
-            <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="team.html">Team</a></li>
-
-              <li class="drop-down"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-
-        </ul>
-      </nav><!-- .nav-menu -->
-
+<nav class="sidenav" data-sidenav data-sidenav-toggle="#sidenav-toggle">
+    <div class="sidenav-brand">
+      AMAZON
     </div>
-  </header><!-- End Header -->
 
-  <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-none d-xl-block">
+    <div class="sidenav-header">
+      Section Header
+      <small>secondary text</small>
+    </div>
+
+    <ul class="sidenav-menu">
+      <li>
+        <a href="javascript:;" data-sidenav-dropdown-toggle class="active">
+          <span class="sidenav-link-icon">
+            <i class="icofont-cart icofont-2x"></i>
+          </span>
+          <span class="sidenav-link-title">Lorem ipsum</span>
+          <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+            <i class="icofont-caret-down"></i>
+          </span>
+          <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
+            <i class="icofont-caret-up"></i>
+          </span>
+        </a>
+
+        <ul class="sidenav-dropdown" data-sidenav-dropdown>
+          <li><a href="javascript:;">Dolor sit amet</a></li>
+          <li><a href="javascript:;">Consectetur adipisicing</a></li>
+          <li><a href="javascript:;">Elit</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="javascript:;" data-sidenav-dropdown-toggle class="active">
+          <span class="sidenav-link-icon">
+            <i class="icofont-cart icofont-2x"></i>
+          </span>
+          <span class="sidenav-link-title">Lorem ipsum</span>
+          <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+            <i class="icofont-caret-down"></i>
+          </span>
+          <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
+            <i class="icofont-caret-up"></i>
+          </span>
+        </a>
+
+        <ul class="sidenav-dropdown" data-sidenav-dropdown>
+          <li><a href="javascript:;">Dolor sit amet</a></li>
+          <li><a href="javascript:;">Consectetur adipisicing</a></li>
+          <li><a href="javascript:;">Elit</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="javascript:;" data-sidenav-dropdown-toggle class="active">
+          <span class="sidenav-link-icon">
+            <i class="icofont-cart icofont-2x"></i>
+          </span>
+          <span class="sidenav-link-title">Lorem ipsum</span>
+          <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+            <i class="icofont-caret-down"></i>
+          </span>
+          <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
+            <i class="icofont-caret-up"></i>
+          </span>
+        </a>
+
+        <ul class="sidenav-dropdown" data-sidenav-dropdown>
+          <li><a href="javascript:;">Dolor sit amet</a></li>
+          <li><a href="javascript:;">Consectetur adipisicing</a></li>
+          <li><a href="javascript:;">Elit</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="javascript:;" class="active">
+          <span class="sidenav-link-icon">
+            <i class="icofont-cart icofont-2x"></i>
+          </span>
+          <span class="sidenav-link-title">Nostrud ullamco</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;" class="active">
+          <span class="sidenav-link-icon">
+            <i class="icofont-cart icofont-2x"></i>
+          </span>
+          <span class="sidenav-link-title">Commodo</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="sidenav-header">
+      Another Section Header
+    </div>
+
+    <ul class="sidenav-menu">
+      <li>
+        <a href="javascript:;" data-sidenav-dropdown-toggle class="active">
+          <span class="sidenav-link-icon">
+            <i class="icofont-cart icofont-2x"></i>
+          </span>
+          <span class="sidenav-link-title">Reprehenderit</span>
+          <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+          </span>
+          <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
+            <i class="icofont-caret-up"></i>
+          </span>
+        </a>
+
+        <ul class="sidenav-dropdown" data-sidenav-dropdown class="active">
+          <li><a href="javascript:;">Voluptate</a></li>
+          <li><a href="javascript:;">Excepteur</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="javascript:;" class="active">
+          <span class="sidenav-link-icon">
+            <i class="icofont-cart icofont-2x"></i>
+          </span>
+          <span class="sidenav-link-title">Occaecat</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;" class="active">
+          <span class="sidenav-link-icon">
+            <i class="icofont-cart icofont-2x"></i>
+          </span>
+          <span class="sidenav-link-title">Deserunt</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;" class="active">
+          <span class="sidenav-link-icon">
+            <i class="icofont-cart icofont-2x"></i>
+          </span>
+          <span class="sidenav-link-title">Occaecat</span>
+        </a>
+      </li>      <li>
+        <a href="javascript:;" data-sidenav-dropdown-toggle class="active">
+          <span class="sidenav-link-icon">
+            <i class="icofont-cart icofont-2x"></i>
+          </span>
+          <span class="sidenav-link-title">Lorem ipsum</span>
+          <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+            <i class="icofont-caret-down"></i>
+          </span>
+          <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
+            <i class="icofont-caret-up"></i>
+          </span>
+        </a>
+
+        <ul class="sidenav-dropdown" data-sidenav-dropdown>
+          <li><a href="javascript:;">Dolor sit amet</a></li>
+          <li><a href="javascript:;">Consectetur adipisicing</a></li>
+          <li><a href="javascript:;">Elit</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="javascript:;" data-sidenav-dropdown-toggle class="active">
+          <span class="sidenav-link-icon">
+            <i class="icofont-cart icofont-2x"></i>
+          </span>
+          <span class="sidenav-link-title">Lorem ipsum</span>
+          <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+            <i class="icofont-caret-down"></i>
+          </span>
+          <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
+            <i class="icofont-caret-up"></i>
+          </span>
+        </a>
+
+        <ul class="sidenav-dropdown" data-sidenav-dropdown>
+          <li><a href="javascript:;">Dolor sit amet</a></li>
+          <li><a href="javascript:;">Consectetur adipisicing</a></li>
+          <li><a href="javascript:;">Elit</a></li>
+        </ul>
+      </li>
+    </ul>
+</nav>
+
+		    <a href="#" class="navbar-brand"><img src="assets/img/logo.png" alt="" width="120px" class="img-fluid"></a>
+		        <form class="form-inline w-50 d-inline-block">
+		            <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">All &nbsp;<i class="icofont-caret-down"></i></div>
+                  </div>
+                        <input type="text" class="form-control border border-right-0">
+                        <span class="input-group-append">
+                            <button class="btn border border-left-0" type="button" style="background-color: #febd69;">
+                                <i class="icofont-search"></i>
+                            </button>
+                        </span>
+                    </div>
+		        </form>
+
+            <div class="btn-group" role="group" aria-label="">
+                <div class="btn-group" role="group">
+            		<button id="btnGroupDrop1" type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			              <img src="assets/img/icons8-india-30.png">
+			            </button>
+		        </div>
+		    </div>
+
+		    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+		        <i class="icofont-navigation-menu text-light icofont-1x"></i>
+		    </button>
+
+		    <div class="collapse navbar-collapse" id="navbarCollapse">
+		        <div class="navbar-nav ml-auto">
+		            <a href="#" class="nav-item nav-link active">Hello, Sign in <br>Accounts & Lists</a>
+		            <a href="#" class="nav-item nav-link">Returns <br> & Orders</a>
+		            <a href="#" class="nav-item nav-link">Try <br> Prime</a>
+		            <a href="#" class="nav-item nav-link"><i class="icofont-cart icofont-2x"></i>Cart</a>
+		        </div>
+		    </div>
+		</nav>
+    </div>
+  </header>
+
+  <section id="topbar" class="d-none d-xl-block" style="background-color: #232f3e;">
     <div class="container-fluid d-flex">
       <div class="contact-info">
         <div class="row" style="margin-top: 6px;">
@@ -103,7 +290,6 @@
     </div>
   </section>
 
-  <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
       <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -427,7 +613,6 @@
     </div> 
 
 
-    <!-- ======= Featured Section ======= -->
     <section id="featured" class="featured">
       <div class="card-columns container-fluid">
           <div class="card p-2 py-4">
@@ -506,24 +691,37 @@
               <p class="card-text mt-4"><a href="#"><small class="text-muted">See more</small></a></p>
           </div>
 
-          <div class="card p-2" style="border: none;">
+          <div class="card p-2 py-4">
+              <h5 class="card-title mb-4">Card title</h5>
             <div class="row">
-              <div class="col-sm-12">
-                <div class="card p-2">
-                  <blockquote class="blockquote mb-0 card-body">
-                    <p><strong>Sign in for your best experience</strong></p>
-                      <button type="button" class="btn btn-lg btn-block" style="background-color: #f0c14b;border-radius: 0;">Sign in securely</button>
-                  </blockquote>
-                </div>
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
+                <small class="text-muted">
+                  price
+                </small>
+              </div>
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img class="card-img-top" src="assets/img/about2.jpg" alt="Card image cap">
+                <small class="text-muted">
+                  price
+                </small>
               </div>
             </div>
-            <div class="row mt-4">
-              <div class="col-sm-12">
-                <div class="card">
-                  <img class="card-img" src="assets/img/about.jpg" alt="Card image">
-                </div>
+            <div class="row mt-3">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img class="card-img-top" src="assets/img/about3.jpg" alt="Card image cap">
+                <small class="text-muted">
+                  price
+                </small>
+              </div>
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img class="card-img-top" src="assets/img/about4.jpg" alt="Card image cap">
+                <small class="text-muted">
+                  price
+                </small>
               </div>
             </div>
+              <p class="card-text mt-3"><a href="#"><small class="text-muted">See more</small></a></p>
           </div>
 
 
@@ -727,7 +925,7 @@
     <div class="footer-newsletter" style="background-color: #232F3E; border-top: 1px solid #3a4553;">
       <div class="container text-center">
         <a href="#" class="logo mr-5">
-          <img src="assets/img/amazon-ar21.svg" alt="" class="img-fluid">
+          <img src="assets/img/logo.png" alt="" width="100px" class="img-fluid">
         </a>
         <button class="btn btn-outline-light"><i class="icofont-globe"></i>&nbsp;&nbsp;English</button>
       </div>
@@ -798,10 +996,8 @@
 
   </footer>
 
-  
-
-  <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/js/sidenav.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
@@ -812,8 +1008,11 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
 
-  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script type="text/javascript">
+  	$('[data-sidenav]').sidenav();
+  </script>
 
 </body>
 
