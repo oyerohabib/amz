@@ -1,0 +1,41 @@
+.flexslider {
+  margin-top: 114px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  overflow: hidden;
+}
+
+.flex-direction-nav a {
+  color: black;
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin: -20px 0 0 0;
+  text-align: center;
+  line-height: 40px;
+}
+
+/********************************
+IPAD LANDSCAPE (1024x768)
+********************************/
+/********************************
+IPAD PORTRAIT (768x1024)
+********************************/
+@media only screen and (max-width: 960px) {
+  .flexslider {
+    margin-top: 100px;
+  }
+}
+/********************************
+IPHONE 4-4S-5 LANDSCAPE (568x320)
+********************************/
+@media only screen and (max-width: 760px) {
+  .flexslider {
+    margin-top: 60px;
+  }
+}
+/********************************
+IPHONE 4-4S-5 PORTRAIT (320x568)
+********************************/

@@ -146,6 +146,20 @@
     }
   });
 
+    $(".small-carousel").owlCarousel({
+    autoplay: true,
+    dots: false,
+    loop: true,
+    responsive: {
+      0: {
+        items: 3
+      },
+      768: {
+        items: 5
+      }
+    }
+  });
+
   // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,

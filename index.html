@@ -24,6 +24,9 @@
 
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/sidenav.min.css" rel="stylesheet">
+  <link href="assets/css/templatemo-main.css" rel="stylesheet">
+  <link href="assets/css/templatemo-misc.css" rel="stylesheet">
+  <link href="assets/css/font-awesome.min" rel="stylesheet">
 </head>
 
 <body>
@@ -290,105 +293,51 @@
     </div>
   </section>
 
-  <section id="hero">
-    <div class="hero-container">
-      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="flexslider mb-5">
+        <ul class="slides">
+            <li>
+                <img src="assets/img/slide/slide-3.jpg" alt="">
+            </li>
+            <li>
+                <img src="assets/img/slide/slide-2.jpg" alt="">
+            </li>
+            <li>
+                <img src="assets/img/slide/slide-1.jpg" alt="">
+            </li>
+            <li>
+                <img src="assets/img/slide/slide-4.jpg" alt="">
+            </li>
+            <li>
+                <img src="assets/img/slide/slide-5.jpg" alt="">
+            </li>
+            <li>
+                <img src="assets/img/slide/slide-6.jpg" alt="">
+            </li>
+            <li>
+                <img src="assets/img/slide/slide-7.jpg" alt="">
+            </li>
+        </ul>
+    </div>
 
-        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+    <section id="clients" class="clients d-xl-none d-lg-none d-xs-block small_1">
+      <div class="container-fluid">
 
-        <div class="carousel-inner" role="listbox">
-
-          <!-- Slide 1 -->
-          <div class="carousel-item active" style="background: url(assets/img/slide/slide-1.jpg)">
-            <a href="#">
-            <div class="carousel-container">
-              <div class="carousel-content">
-              </div>
-            </div>
-            </a>
-          </div>
-
-          <!-- Slide 2 -->
-          <div class="carousel-item" style="background: url(assets/img/slide/slide-2.jpg)">
-            <a href="#">
-            <div class="carousel-container">
-              <div class="carousel-content">
-              </div>
-            </div>
-            </a>
-          </div>
-
-          <!-- Slide 3 -->
-          <div class="carousel-item" style="background: url(assets/img/slide/slide-3.jpg)">
-            <a href="#">
-            <div class="carousel-container">
-              <div class="carousel-content">
-              </div>
-            </div>
-            </a>
-          </div>
-
-          <!-- Slide 4 -->
-          <div class="carousel-item" style="background: url(assets/img/slide/slide-4.jpg)">
-            <a href="#">
-            <div class="carousel-container">
-              <div class="carousel-content">
-              </div>
-            </div>
-            </a>
-          </div>
-
-          <!-- Slide 5 -->
-          <div class="carousel-item" style="background: url(assets/img/slide/slide-5.jpg)">
-            <a href="#">
-            <div class="carousel-container">
-              <div class="carousel-content">
-              </div>
-            </div>
-            </a>
-          </div>
-
-          <!-- Slide 6 -->
-          <div class="carousel-item" style="background: url(assets/img/slide/slide-6.jpg)">
-            <a href="#">
-            <div class="carousel-container">
-              <div class="carousel-content">
-              </div>
-            </div>
-            </a>
-          </div>
-
-          <!-- Slide 7 -->
-          <div class="carousel-item" style="background: url(assets/img/slide/slide-7.jpg)">
-            <a href="#">
-            <div class="carousel-container">
-              <div class="carousel-content">
-              </div>
-            </div>
-            </a>
-          </div>
-
+        <div class="owl-carousel small-carousel">
+          <div class="text-center"><img src="assets/img/clients/small1.jpg" alt=""><span>Belimo</span></div>
+          <div class="text-center"><img src="assets/img/clients/small2.jpg" alt=""><span>Belimo</span></div>
+          <div class="text-center"><img src="assets/img/clients/small3.jpg" alt=""><span>Belimo</span></div>
+          <div class="text-center"><img src="assets/img/clients/small4.jpg" alt=""><span>Belimo</span></div>
+          <div class="text-center"><img src="assets/img/clients/small5.jpg" alt=""><span>Belimo</span></div>
         </div>
 
-        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-
-        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-
       </div>
-    </div>
-  </section>
+    </section>
 
   <main id="main">
 
     <!-- ======= Featured Section ======= -->
     <section id="featured" class="featured">
-      <div class="card-columns container-fluid">
+      <div class="card-columns container-fluid text-center">
           <div class="card p-2 py-4">
               <h5 class="card-title mb-4">Card title</h5>
             <div class="row">
@@ -602,13 +551,13 @@
 
     <div class="container-fluid mb-4">
       <div class="px-4">
-        <a href="#"><img src="assets/img/big.jpg" style="width: 100%; height: 250px;"></a>
+        <a href="#"><img src="assets/img/big.jpg" class="img-fluid" style="width: 100%; height: 250px;"></a>
       </div>
     </div> 
 
     <div class="container-fluid mb-4">
       <div class="container">
-        <a href="#"><img src="assets/img/big2.jpg" style="width: 100%; height: 210px;"></a>
+        <a href="#"><img src="assets/img/big2.jpg" class="img-fluid" style="width: 100%; height: 210px;"></a>
       </div>
     </div> 
 
@@ -998,6 +947,8 @@
 
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/js/sidenav.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/custom.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
