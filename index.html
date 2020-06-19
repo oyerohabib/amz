@@ -43,8 +43,13 @@
 
 <nav class="sidenav" data-sidenav data-sidenav-toggle="#sidenav-toggle">
     <div class="sidenav-brand">
-      AMAZON
+      <span>AMAZON</span>
+      <span class="" style="float: right;">
+        <a href="javascript:;" class="toggle" id="sidenav-toggle">
+          <i class="icofont-close-squared text-light" style="font-size: 40px;"></i></a>
+        </span>
     </div>
+
 
     <div class="sidenav-header">
       Section Header
@@ -262,11 +267,11 @@
   </header>
 
   <section id="topbar" class="d-none d-xl-block" style="background-color: #232f3e;">
-    <div class="container-fluid d-flex">
+    <div class="container-fluid px-0 d-flex">
       <div class="contact-info">
         <div class="row" style="margin-top: 6px;">
           <div class="col-sm-2"><i class="icofont-location-pin mr-1 text-light" style="font-size: 32px;"></i></div>                   
-          <div class="col-sm-10 small-LH">
+          <div class="col-sm-10 small-LH" style="line-height: 0.89;">
           	<a class="small" href="mailto:contact@example.com">Hello <br><span style="font-size: 14px;font-weight: bold;">select your address</span></a>
           </div>                   
         </div>
@@ -286,9 +291,11 @@
           </ul>
         </nav>
       </div>
-      <div>
-
-        <a class="navbar-brand" href="#">FULL-WIDTH-IMAGE</a>
+      <div class="my-0 py-0">
+        <a class="navbar-brand text-light" href="#">
+          <!--<img src="assets/img/about.jpg" class="img-fluid" style="height: 35px; width: 200px;" alt="">-->
+          FULL-WIDTH-IMAGE
+      </a>
       </div>
     </div>
   </section>
@@ -335,9 +342,8 @@
 
   <main id="main">
 
-    <!-- ======= Featured Section ======= -->
     <section id="featured" class="featured">
-      <div class="card-columns container-fluid text-center">
+      <div class="card-columns container-fluid">
           <div class="card p-2 py-4">
               <h5 class="card-title mb-4">Card title</h5>
             <div class="row">
@@ -371,6 +377,36 @@
               <p class="card-text mt-3"><a href="#"><small class="text-muted">See more</small></a></p>
           </div>
           
+          <div class="card p-2" style="border: none;">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card p-2">
+                  <blockquote class="blockquote mb-0 card-body">
+                    <p><strong>Sign in for your best experience</strong></p>
+                      <button type="button" class="btn btn-lg btn-block" style="background-color: #f0c14b;border-radius: 0;">Sign in securely</button>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-sm-12">
+                <div class="card">
+                  <img class="card-img" src="assets/img/about.jpg" alt="Card image">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card p-3 py-4">
+              <h5 class="card-title mb-4">Card title</h5>
+            <div class="row">
+              <div class="col-sm-12">
+                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
+              </div>
+            </div>
+              <p class="card-text mt-4"><a href="#"><small class="text-muted">See more</small></a></p>
+          </div>
+
           <div class="card p-2 py-4">
               <h5 class="card-title mb-4">Card title</h5>
             <div class="row">
@@ -402,36 +438,6 @@
               </div>
             </div>
               <p class="card-text mt-3"><a href="#"><small class="text-muted">See more</small></a></p>
-          </div>
-
-          <div class="card p-3 py-4">
-              <h5 class="card-title mb-4">Card title</h5>
-            <div class="row">
-              <div class="col-sm-12">
-                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
-              </div>
-            </div>
-              <p class="card-text mt-4"><a href="#"><small class="text-muted">See more</small></a></p>
-          </div>
-
-          <div class="card p-2" style="border: none;">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="card p-2">
-                  <blockquote class="blockquote mb-0 card-body">
-                    <p><strong>Sign in for your best experience</strong></p>
-                      <button type="button" class="btn btn-lg btn-block" style="background-color: #f0c14b;border-radius: 0;">Sign in securely</button>
-                  </blockquote>
-                </div>
-              </div>
-            </div>
-            <div class="row mt-4">
-              <div class="col-sm-12">
-                <div class="card">
-                  <img class="card-img" src="assets/img/about.jpg" alt="Card image">
-                </div>
-              </div>
-            </div>
           </div>
 
 
@@ -549,15 +555,15 @@
 
     </section>
 
-    <div class="container-fluid mb-4">
-      <div class="px-4">
-        <a href="#"><img src="assets/img/big.jpg" class="img-fluid" style="width: 100%; height: 250px;"></a>
+    <div class="container-fluid mb-4 text-center">
+      <div class="">
+        <a href="#"><img src="assets/img/big.jpg" class ="img-responsive img-fluid"></a>
       </div>
     </div> 
 
-    <div class="container-fluid mb-4">
+    <div class="container-fluid mb-4 text-center">
       <div class="container">
-        <a href="#"><img src="assets/img/big2.jpg" class="img-fluid" style="width: 100%; height: 210px;"></a>
+        <a href="#"><img src="assets/img/big2.jpg" class ="img-responsive img-fluid"></a>
       </div>
     </div> 
 
@@ -901,7 +907,7 @@
     </div>
 
     <div class="footer-top" style="background-color: #131A22;">
-      <div class="container px-5">
+      <div class="container pr-5">
         <div class="row">
 
           <div class="col-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 footer-links-small">

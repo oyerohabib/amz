@@ -127,12 +127,12 @@ html[xmlns] .slides {
 
 .flexslider .flex-prev {
   opacity: 1;
-  left: 30px;
+  left: 12px;
 }
 
 .flexslider .flex-next {
   opacity: 1;
-  right: 30px;
+  right: 12px;
 }
 
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
@@ -150,6 +150,15 @@ html[xmlns] .slides {
   font-size: 48px;
   display: inline-block;
   content: '\f104';
+} 
+
+@media (max-width: 700px) {
+  .flex-direction-nav a:before {
+    font-family: "FontAwesome";
+    font-size: 24px;
+    display: inline-block;
+    content: '\f104';
+  }
 }
 
 .flex-direction-nav a.flex-next:before {
