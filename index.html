@@ -228,33 +228,44 @@
 </nav>
 
 		    <a href="#" class="navbar-brand"><img src="assets/img/logo.png" alt="" width="120px" class="img-fluid"></a>
-		        <form class="form-inline w-50 d-inline-block">
+
+        <a href="#" class="nav-item nav-link d-block d-sm-block d-md-none d-lg-none d-xl-none">
+          <span class="mr-1" style="font-size: 16px;">Sign in</span>
+          <i class="icofont-cart icofont-2x"></i>
+        </a>
+
+		        <form class="form-inline w-50 w-md-100 d-inline-block">
 		            <div class="input-group">
                   <div class="input-group-prepend">
                     <div class="input-group-text">All &nbsp;<i class="icofont-caret-down"></i></div>
                   </div>
-                        <input type="text" class="form-control border border-right-0">
+                        <input type="text" class="form-control border border-right-0" placeholder="Search">
                         <span class="input-group-append">
                             <button class="btn border border-left-0" type="button" style="background-color: #febd69;">
                                 <i class="icofont-search"></i>
                             </button>
                         </span>
                     </div>
-		        </form>
+		        </form><!-- style="background-color: #37475A;"-->
 
-            <div class="btn-group" role="group" aria-label="">
-                <div class="btn-group" role="group">
+            <div class="row container-fluid mt-2 p-2 text-light mx-0 d-block d-sm-block d-md-none d-lg-none d-xl-none">
+              <i class="icofont-location-pin icofont-2x"></i>&nbsp;<span style="font-size: 16px;">Select delivery location</span>
+            </div>
+
+            <div class="btn-group d-none d-sm-none d-md-block d-lg-block d-xl-block" role="group" aria-label="">
+              <div class="btn-group" role="group">
             		<button id="btnGroupDrop1" type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			              <img src="assets/img/icons8-india-30.png">
 			            </button>
+	            </div>
 		        </div>
-		    </div>
 
-		    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-		        <i class="icofont-navigation-menu text-light icofont-1x"></i>
-		    </button>
+        <button type="button" class="navbar-toggler d-none d-sm-none d-md-block d-lg-none d-xl-none"
+         data-toggle="collapse" data-target="#navbarCollapse">
+            <i class="icofont-navigation-menu text-light icofont-1x"></i>
+        </button>
 
-		    <div class="collapse navbar-collapse" id="navbarCollapse">
+		    <div class="collapse navbar-collapse length" id="navbarCollapse">
 		        <div class="navbar-nav ml-auto">
 		            <a href="#" class="nav-item nav-link active">Hello, Sign in <br>Accounts & Lists</a>
 		            <a href="#" class="nav-item nav-link">Returns <br> & Orders</a>
@@ -298,9 +309,23 @@
       </a>
       </div>
     </div>
-  </section>
+  </section> 
 
-    <div class="flexslider mb-5">
+    <section id="clients" class="clients d-xl-none d-lg-none d-xs-block small_1 mt-3">
+      <div class="container-fluid">
+
+        <div class="owl-carousel small-top-carousel">
+          <div class="text-center"><img src="assets/img/clients/small_1.jpg" alt=""><span>Prime</span></div>
+          <div class="text-center"><img src="assets/img/clients/small_2.jpg" alt=""><span>Fresh</span></div>
+          <div class="text-center"><img src="assets/img/clients/small_3.jpg" alt=""><span>Pantry</span></div>
+          <div class="text-center"><img src="assets/img/clients/small_4.jpg" alt=""><span>Mobile</span></div>
+          <div class="text-center"><img src="assets/img/clients/small_5.jpg" alt=""><span>Fashion</span></div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="flexslider mb-4">
         <ul class="slides">
             <li>
                 <img src="assets/img/slide/slide-3.jpg" alt="">
@@ -326,7 +351,25 @@
         </ul>
     </div>
 
-    <section id="clients" class="clients d-xl-none d-lg-none d-xs-block small_1">
+    <div class="container-fluid p-0 mb-4 text-center d-xl-none d-lg-none d-xs-block" style="border-bottom: 2px solid grey;">
+      <div class="container">
+          <div class="m-0" style="border: none;">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="p-2">
+                  <blockquote class="blockquote mb-0 card-body">
+                    <p><strong style="float: left;" class="mb-3">Sign in for the best experience</strong></p>
+                      <button type="button" class="btn btn-lg btn-block" style="background-color: #f0c14b;border-radius: 0;">Sign in</button>
+                    <p><a href="#" style="float: left;color: blue;" class="mt-2 mb-3">Create an account</a></p>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div> 
+
+    <section id="clients" class="clients d-xl-none d-lg-none d-xs-block small_1 mb-3" style="border-bottom: 3px solid grey;">
       <div class="container-fluid">
 
         <div class="owl-carousel small-carousel">
@@ -378,7 +421,7 @@
           </div>
           
           <div class="card p-2" style="border: none;">
-            <div class="row">
+            <div class="row d-none d-sm-none d-md-none d-lg-block d-xl-block">
               <div class="col-sm-12">
                 <div class="card p-2">
                   <blockquote class="blockquote mb-0 card-body">

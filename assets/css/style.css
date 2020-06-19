@@ -16,6 +16,32 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+/*@media (max-width: 700px) {
+  #header form .full .input-group input {
+    width: 70%;
+  }
+}*/
+
+@media (max-width: 1000px) {
+  #header .length .navbar-nav a {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 768px) {
+  .w-md-100 {
+  width: 100% !important;
+  }
+}
+
+.d-sm-none {
+  display: none;
+}
+
+.d-sm-block {
+  display: block;
+}
+
 .card-columns{
 	display: inline-block;
 }

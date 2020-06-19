@@ -152,9 +152,20 @@
     loop: true,
     responsive: {
       0: {
-        items: 3
+        items: 4
       },
       768: {
+        items: 5
+      }
+    }
+  });
+
+    $(".small-top-carousel").owlCarousel({
+    autoplay: false,
+    dots: false,
+    loop: false,
+    responsive: {
+      0: {
         items: 5
       }
     }
