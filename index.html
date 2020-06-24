@@ -485,6 +485,23 @@
 
       </div>
 
+      <div class="ext container-fluid my-4 d-none">
+        <div class="card p-5 h-100 w-100">
+          <h4>
+            Best sellers
+            &nbsp;&nbsp;
+            <a href="#" style="font-size: small;">See more</a>
+          </h4>
+
+          <div class="d-flex mt-4" style="height: 200px;">
+            <div class="bg-img h-100 mx-3" style="width: 200px; background-image: url('assets/img/about.jpg');"></div>
+            <div class="bg-img h-100 mx-3" style="width: 200px; background-image: url('assets/img/about2.jpg');"></div>
+            <div class="bg-img h-100 mx-3" style="width: 200px; background-image: url('assets/img/about4.jpg');"></div>
+            <div class="bg-img h-100 mx-3" style="width: 200px; background-image: url('assets/img/about3.jpg');"></div>
+          </div>
+        </div>
+      </div>
+
     </section>
 
     <div class="container-fluid mb-4 text-center">
@@ -907,15 +924,21 @@
     @media only screen and (min-width: 992px) {
       #featured:first-of-type {
         position: relative;
-        top: -280px;
+        top: -320px;
         z-index: 100;
         background: linear-gradient(170deg, rgba(255,255,255,0) 0%, rgb(234, 237, 237) 100%);
         padding-top: 30px;
       }
 
+      #featured .ext {
+        display: block !important;
+        position: absolute;
+        top: calc(90% + 25px);
+      }
+
       .flex-direction-nav {
         position: absolute;
-        top: 120px;
+        top: 150px;
         width: 100%;
       }
     }
@@ -926,6 +949,7 @@
       .cp {
         padding: .8rem 2rem;
         font-weight: 600;
+        margin-right: 0 !important;
       }
 
       a.cp {
@@ -996,6 +1020,13 @@
           transform: translateX(-100%);
           opacity: 0;
         }
+      }
+
+      .bg-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 1rem;
       }
   </style>
 
