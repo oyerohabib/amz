@@ -1,0 +1,157 @@
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<div class="sidenav shadow">
+  <div onclick="this.parentElement.classList.add('hide');" class="fixed-top h-100 w-100" style="background: rgba(0, 0, 0, 0.3);"></div>
+
+  <div class="fixed-top w-100 h-100 d-flex flex-column" style="max-width: 330px;">
+    <a href="" class="d-block text-white py-3 cp" style="background: #232f3e; text-decoration: none;" >
+      <h5 class="m-0 p-0">
+        <span class="rounded-circle bg-white d-inline-flex align-items-center justify-content-center" style="width: 22px; height: 22px;" >
+          <i class="icofont icofont-user-alt-5 icofont-sm" style="color: #232f3e;"></i>
+        </span>
+        &nbsp;&nbsp;Hello, Sign in.
+      </h5>
+    </a>
+    <div class="flex-grow-1 bg-white py-2" style="overflow-y: auto;">
+      <span class="nav-link py-3 cp text-secondary">SHOP BY CATEGORY</span>
+      <a href="" class="nav-link cp" >
+        Echo & Alexa
+      </a>
+
+      <div class="">
+        <a href="#" class="nav-link cp cd" onclick="this.nextElementSibling.classList.add('active');" >
+          <div class="d-flex align-items-center justify-content-between">
+            Fire TV Stick
+            <i class="icon icofont icofont-rounded-right icofont-lg"></i>
+          </div>
+        </a>
+
+        <div class="cd-main">
+          <a href="#" class="nav-link cp cd" onclick="this.parentElement.classList.remove('active');">
+            <i class="icon icofont icofont-arrow-left icofont-lg align-middle"></i>
+            <font color="black" class="align-middle" >&nbsp;&nbsp;MAIN MENU</font>
+          </a>
+          <hr class="m-0 mt-1" />
+          <span class="nav-link py-3 cp text-secondary">FIRE TV STICK</span>
+          <a href="#" class="nav-link cp" >All-New Fire TV Stick 4K</a>
+          <a href="#" class="nav-link cp" >Amazon Prime Video</a>
+          <a href="#" class="nav-link cp" >Fire TV Apps & Games</a>
+          <a href="#" class="nav-link cp" >See all Fire TV devices</a>
+        </div>
+      </div>
+
+      <div class="">
+        <a href="#" class="nav-link cp cd" onclick="this.nextElementSibling.classList.add('active');" >
+          <div class="d-flex align-items-center justify-content-between">
+            Amazon Prime Video
+            <i class="icon icofont icofont-rounded-right icofont-lg"></i>
+          </div>
+        </a>
+
+        <div class="cd-main">
+          <a href="#" class="nav-link cp cd" onclick="this.parentElement.classList.remove('active');">
+            <i class="icon icofont icofont-arrow-left icofont-lg align-middle"></i>
+            <font color="black" class="align-middle" >&nbsp;&nbsp;MAIN MENU</font>
+          </a>
+          <hr class="m-0 mt-1" />
+          <span class="nav-link py-3 cp text-secondary">AMAZON PRIME VIDEO</span>
+          <a href="#" class="nav-link cp" >All Videos</a>
+          <a href="#" class="nav-link cp" >Movies</a>
+          <a href="#" class="nav-link cp" >TV Shows</a>
+          <a href="#" class="nav-link cp" >Kids Shows</a>
+        </div>
+      </div>
+
+      <hr class="m-0 mt-1" />
+      <span class="nav-link py-3 cp text-secondary">
+        HELP AND SETTINGS
+      </span>
+      <a href="#" class="nav-link cp" >Your Account</a>
+      <a href="#" class="nav-link cp" >Customer Service</a>
+      <a href="#" class="nav-link cp" >Sign In</a>
+    </div>
+  </div>
+
+  <a href="#" onclick="this.parentElement.classList.add('hide');" class="btn btn-link text-white fixed-top" style="top: 20px; left: 335px; width: 20px; text-decoration: none;" >
+    <i class="icofont icofont-close" style="font-size: x-large;" ></i>
+  </a>
+</div>
+
+<style>
+  .cp {
+    padding: .8rem 2rem;
+    font-weight: 600;
+  }
+
+  a.cp {
+    color: #222;
+    font-size: .95rem;
+  }
+
+  a.cp:hover {
+    background: #d7d7d7;
+  }
+
+  .cd {
+    position: relative;
+  }
+
+  .cd .icon {
+    color: #777;
+  }
+
+  .cd:hover .icon {
+    color: #222;
+  }
+
+  .sidenav {
+    position: relative;
+  }
+
+  .sidenav.hide *{
+    display: none !important;
+  }
+
+  .cd-main {
+    position: absolute;
+    top: 61px;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background: white;
+    transform: translateX(-100%);
+    animation: moveOut .4s ease forwards;
+  }
+
+  .cd-main.active{
+    animation: move .3s ease forwards;
+  }
+
+  @keyframes move {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+
+  @keyframes moveOut {
+    from {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+
+    to {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  }
+</style>
