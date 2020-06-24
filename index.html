@@ -32,233 +32,122 @@
 <body>
 
   <header id="header mb-0" style="background-color: #131921;">
+    <div class="sidenav-me shadow hide">
+      <div onclick="this.parentElement.classList.add('hide');" class="fixed-top h-100 w-100" style="background: rgba(0, 0, 0, 0.5);"></div>
+
+      <div class="fixed-top w-100 h-100 d-flex flex-column" style="max-width: 330px;">
+        <a href="" class="d-block text-white py-3 cp" style="background: #232f3e; text-decoration: none;" >
+          <h5 class="m-0 p-0">
+            <span class="rounded-circle bg-white d-inline-flex align-items-center justify-content-center" style="width: 22px; height: 22px;" >
+              <i class="icofont icofont-user-alt-5 icofont-sm" style="color: #232f3e;"></i>
+            </span>
+            &nbsp;&nbsp;Hello, Sign in.
+          </h5>
+        </a>
+        <div class="flex-grow-1 bg-white py-2" style="overflow-y: auto;">
+          <span class="nav-link py-3 cp text-secondary">SHOP BY CATEGORY</span>
+          <a href="" class="nav-link cp" >
+            Echo & Alexa
+          </a>
+
+          <div class="">
+            <a href="#" class="nav-link cp cd" onclick="this.nextElementSibling.classList.add('active');" >
+              <div class="d-flex align-items-center justify-content-between">
+                Fire TV Stick
+                <i class="icon icofont icofont-rounded-right icofont-lg"></i>
+              </div>
+            </a>
+
+            <div class="cd-main">
+              <a href="#" class="nav-link cp cd" onclick="this.parentElement.classList.remove('active');">
+                <i class="icon icofont icofont-arrow-left icofont-lg align-middle"></i>
+                <font color="black" class="align-middle" >&nbsp;&nbsp;MAIN MENU</font>
+              </a>
+              <hr class="m-0 mt-1" />
+              <span class="nav-link py-3 cp text-secondary">FIRE TV STICK</span>
+              <a href="#" class="nav-link cp" >All-New Fire TV Stick 4K</a>
+              <a href="#" class="nav-link cp" >Amazon Prime Video</a>
+              <a href="#" class="nav-link cp" >Fire TV Apps & Games</a>
+              <a href="#" class="nav-link cp" >See all Fire TV devices</a>
+            </div>
+          </div>
+
+          <div class="">
+            <a href="#" class="nav-link cp cd" onclick="this.nextElementSibling.classList.add('active');" >
+              <div class="d-flex align-items-center justify-content-between">
+                Amazon Prime Video
+                <i class="icon icofont icofont-rounded-right icofont-lg"></i>
+              </div>
+            </a>
+
+            <div class="cd-main">
+              <a href="#" class="nav-link cp cd" onclick="this.parentElement.classList.remove('active');">
+                <i class="icon icofont icofont-arrow-left icofont-lg align-middle"></i>
+                <font color="black" class="align-middle" >&nbsp;&nbsp;MAIN MENU</font>
+              </a>
+              <hr class="m-0 mt-1" />
+              <span class="nav-link py-3 cp text-secondary">AMAZON PRIME VIDEO</span>
+              <a href="#" class="nav-link cp" >All Videos</a>
+              <a href="#" class="nav-link cp" >Movies</a>
+              <a href="#" class="nav-link cp" >TV Shows</a>
+              <a href="#" class="nav-link cp" >Kids Shows</a>
+            </div>
+          </div>
+
+          <hr class="m-0 mt-1" />
+          <span class="nav-link py-3 cp text-secondary">
+            HELP AND SETTINGS
+          </span>
+          <a href="#" class="nav-link cp" >Your Account</a>
+          <a href="#" class="nav-link cp" >Customer Service</a>
+          <a href="#" class="nav-link cp" >Sign In</a>
+        </div>
+      </div>
+
+      <a href="#" onclick="this.parentElement.classList.add('hide');" class="btn btn-link text-white fixed-top" style="top: 20px; left: 335px; width: 20px; text-decoration: none;" >
+        <i class="icofont icofont-close" style="font-size: x-large;" ></i>
+      </a>
+    </div>
+
     <div class="">
-		<nav class="navbar navbar-expand-xl">
-
-			<span>
-				<a href="javascript:;" class="toggle" id="sidenav-toggle">
-				<i class="icofont-navigation-menu text-light icofont-2x mr-2"></i>
-				</a>
-			</span>
-
-<nav class="sidenav" data-sidenav data-sidenav-toggle="#sidenav-toggle">
-    <div class="sidenav-brand">
-      <span>AMAZON</span>
-      <span class="" style="float: right;">
-        <a href="javascript:;" class="toggle" id="sidenav-toggle">
-          <i class="icofont-close-squared text-light" style="font-size: 40px;"></i></a>
-        </span>
-    </div>
-
-
-    <div class="sidenav-header">
-      Section Header
-      <small>secondary text</small>
-    </div>
-
-    <ul class="sidenav-menu">
-      <li>
-        <a href="javascript:;" data-sidenav-dropdown-toggle class="active">
-          <span class="sidenav-link-icon">
-            <i class="icofont-cart icofont-2x"></i>
-          </span>
-          <span class="sidenav-link-title">Lorem ipsum</span>
-          <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
-            <i class="icofont-caret-down"></i>
-          </span>
-          <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
-            <i class="icofont-caret-up"></i>
-          </span>
-        </a>
-
-        <ul class="sidenav-dropdown" data-sidenav-dropdown>
-          <li><a href="javascript:;">Dolor sit amet</a></li>
-          <li><a href="javascript:;">Consectetur adipisicing</a></li>
-          <li><a href="javascript:;">Elit</a></li>
-        </ul>
-      </li>
-
-      <li>
-        <a href="javascript:;" data-sidenav-dropdown-toggle class="active">
-          <span class="sidenav-link-icon">
-            <i class="icofont-cart icofont-2x"></i>
-          </span>
-          <span class="sidenav-link-title">Lorem ipsum</span>
-          <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
-            <i class="icofont-caret-down"></i>
-          </span>
-          <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
-            <i class="icofont-caret-up"></i>
-          </span>
-        </a>
-
-        <ul class="sidenav-dropdown" data-sidenav-dropdown>
-          <li><a href="javascript:;">Dolor sit amet</a></li>
-          <li><a href="javascript:;">Consectetur adipisicing</a></li>
-          <li><a href="javascript:;">Elit</a></li>
-        </ul>
-      </li>
-
-      <li>
-        <a href="javascript:;" data-sidenav-dropdown-toggle class="active">
-          <span class="sidenav-link-icon">
-            <i class="icofont-cart icofont-2x"></i>
-          </span>
-          <span class="sidenav-link-title">Lorem ipsum</span>
-          <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
-            <i class="icofont-caret-down"></i>
-          </span>
-          <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
-            <i class="icofont-caret-up"></i>
-          </span>
-        </a>
-
-        <ul class="sidenav-dropdown" data-sidenav-dropdown>
-          <li><a href="javascript:;">Dolor sit amet</a></li>
-          <li><a href="javascript:;">Consectetur adipisicing</a></li>
-          <li><a href="javascript:;">Elit</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="javascript:;" class="active">
-          <span class="sidenav-link-icon">
-            <i class="icofont-cart icofont-2x"></i>
-          </span>
-          <span class="sidenav-link-title">Nostrud ullamco</span>
-        </a>
-      </li>
-      <li>
-        <a href="javascript:;" class="active">
-          <span class="sidenav-link-icon">
-            <i class="icofont-cart icofont-2x"></i>
-          </span>
-          <span class="sidenav-link-title">Commodo</span>
-        </a>
-      </li>
-    </ul>
-
-    <div class="sidenav-header">
-      Another Section Header
-    </div>
-
-    <ul class="sidenav-menu">
-      <li>
-        <a href="javascript:;" data-sidenav-dropdown-toggle class="active">
-          <span class="sidenav-link-icon">
-            <i class="icofont-cart icofont-2x"></i>
-          </span>
-          <span class="sidenav-link-title">Reprehenderit</span>
-          <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
-          </span>
-          <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
-            <i class="icofont-caret-up"></i>
-          </span>
-        </a>
-
-        <ul class="sidenav-dropdown" data-sidenav-dropdown class="active">
-          <li><a href="javascript:;">Voluptate</a></li>
-          <li><a href="javascript:;">Excepteur</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="javascript:;" class="active">
-          <span class="sidenav-link-icon">
-            <i class="icofont-cart icofont-2x"></i>
-          </span>
-          <span class="sidenav-link-title">Occaecat</span>
-        </a>
-      </li>
-      <li>
-        <a href="javascript:;" class="active">
-          <span class="sidenav-link-icon">
-            <i class="icofont-cart icofont-2x"></i>
-          </span>
-          <span class="sidenav-link-title">Deserunt</span>
-        </a>
-      </li>
-      <li>
-        <a href="javascript:;" class="active">
-          <span class="sidenav-link-icon">
-            <i class="icofont-cart icofont-2x"></i>
-          </span>
-          <span class="sidenav-link-title">Occaecat</span>
-        </a>
-      </li>      <li>
-        <a href="javascript:;" data-sidenav-dropdown-toggle class="active">
-          <span class="sidenav-link-icon">
-            <i class="icofont-cart icofont-2x"></i>
-          </span>
-          <span class="sidenav-link-title">Lorem ipsum</span>
-          <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
-            <i class="icofont-caret-down"></i>
-          </span>
-          <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
-            <i class="icofont-caret-up"></i>
-          </span>
-        </a>
-
-        <ul class="sidenav-dropdown" data-sidenav-dropdown>
-          <li><a href="javascript:;">Dolor sit amet</a></li>
-          <li><a href="javascript:;">Consectetur adipisicing</a></li>
-          <li><a href="javascript:;">Elit</a></li>
-        </ul>
-      </li>
-
-      <li>
-        <a href="javascript:;" data-sidenav-dropdown-toggle class="active">
-          <span class="sidenav-link-icon">
-            <i class="icofont-cart icofont-2x"></i>
-          </span>
-          <span class="sidenav-link-title">Lorem ipsum</span>
-          <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
-            <i class="icofont-caret-down"></i>
-          </span>
-          <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
-            <i class="icofont-caret-up"></i>
-          </span>
-        </a>
-
-        <ul class="sidenav-dropdown" data-sidenav-dropdown>
-          <li><a href="javascript:;">Dolor sit amet</a></li>
-          <li><a href="javascript:;">Consectetur adipisicing</a></li>
-          <li><a href="javascript:;">Elit</a></li>
-        </ul>
-      </li>
-    </ul>
-</nav>
+      <nav class="navbar navbar-expand-xl">
+  			<span>
+  				<a href="#" onclick="$('.sidenav-me').removeClass('hide');" class="toggle" id="sidenav-toggle">
+  				<i class="icofont-navigation-menu text-light icofont-2x mr-2"></i>
+  				</a>
+  			</span>
 
 		    <a href="#" class="navbar-brand"><img src="assets/img/logo.png" alt="" width="120px" class="img-fluid"></a>
-
         <a href="#" class="nav-item nav-link d-block d-sm-block d-md-none d-lg-none d-xl-none">
           <span class="mr-1" style="font-size: 16px;">Sign in</span>
           <i class="icofont-cart icofont-2x"></i>
         </a>
 
-		        <form class="form-inline w-50 w-md-100 d-inline-block">
-		            <div class="input-group">
-                  <div class="input-group-prepend">
-                    <div class="input-group-text">All &nbsp;<i class="icofont-caret-down"></i></div>
-                  </div>
-                        <input type="text" class="form-control border border-right-0" placeholder="Search">
-                        <span class="input-group-append">
-                            <button class="btn border border-left-0" type="button" style="background-color: #febd69;">
-                                <i class="icofont-search"></i>
-                            </button>
-                        </span>
-                    </div>
-		        </form><!-- style="background-color: #37475A;"-->
+        <form class="form-inline w-50 w-md-100 d-inline-block">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">All &nbsp;<i class="icofont-caret-down"></i></div>
+              </div>
+                    <input type="text" class="form-control border border-right-0" placeholder="Search">
+                    <span class="input-group-append">
+                        <button class="btn border border-left-0" type="button" style="background-color: #febd69;">
+                            <i class="icofont-search"></i>
+                        </button>
+                    </span>
+                </div>
+        </form><!-- style="background-color: #37475A;"-->
 
-            <div class="row container-fluid mt-2 p-2 text-light mx-0 d-block d-sm-block d-md-none d-lg-none d-xl-none">
-              <i class="icofont-location-pin icofont-2x"></i>&nbsp;<span style="font-size: 16px;">Select delivery location</span>
-            </div>
+        <div class="row container-fluid mt-2 p-2 text-light mx-0 d-block d-sm-block d-md-none d-lg-none d-xl-none">
+          <i class="icofont-location-pin icofont-2x"></i>&nbsp;<span style="font-size: 16px;">Select delivery location</span>
+        </div>
 
-            <div class="btn-group d-none d-sm-none d-md-block d-lg-block d-xl-block" role="group" aria-label="">
-              <div class="btn-group" role="group">
-            		<button id="btnGroupDrop1" type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			              <img src="assets/img/icons8-india-30.png">
-			            </button>
-	            </div>
-		        </div>
+        <div class="btn-group d-none d-sm-none d-md-block d-lg-block d-xl-block" role="group" aria-label="">
+          <div class="btn-group" role="group">
+        		<button id="btnGroupDrop1" type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	              <img src="assets/img/icons8-india-30.png">
+	            </button>
+          </div>
+        </div>
 
         <button type="button" class="navbar-toggler d-none d-sm-none d-md-block d-lg-none d-xl-none"
          data-toggle="collapse" data-target="#navbarCollapse">
@@ -273,7 +162,7 @@
 		            <a href="#" class="nav-item nav-link"><i class="icofont-cart icofont-2x"></i>Cart</a>
 		        </div>
 		    </div>
-		</nav>
+  		</nav>
     </div>
   </header>
 
@@ -281,10 +170,10 @@
     <div class="container-fluid px-0 d-flex">
       <div class="contact-info">
         <div class="row" style="margin-top: 6px;">
-          <div class="col-sm-2"><i class="icofont-location-pin mr-1 text-light" style="font-size: 32px;"></i></div>                   
+          <div class="col-sm-2"><i class="icofont-location-pin mr-1 text-light" style="font-size: 32px;"></i></div>
           <div class="col-sm-10 small-LH" style="line-height: 0.89;">
           	<a class="small" href="mailto:contact@example.com">Hello <br><span style="font-size: 14px;font-weight: bold;">select your address</span></a>
-          </div>                   
+          </div>
         </div>
       </div>
       <div class="middle contact-info mr-auto mt-2">
@@ -309,7 +198,7 @@
       </a>
       </div>
     </div>
-  </section> 
+  </section>
 
     <section id="clients" class="clients d-xl-none d-lg-none d-xs-block small_1 mt-3">
       <div class="container-fluid">
@@ -367,7 +256,7 @@
             </div>
           </div>
       </div>
-    </div> 
+    </div>
 
     <section id="clients" class="clients d-xl-none d-lg-none d-xs-block small_1 mb-3" style="border-bottom: 3px solid grey;">
       <div class="container-fluid">
@@ -390,28 +279,28 @@
           <div class="card p-2 py-4">
               <h5 class="card-title mb-4">Card title</h5>
             <div class="row">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about2.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about2.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
             </div>
             <div class="row mt-3">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about3.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about3.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about4.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about4.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
@@ -419,7 +308,7 @@
             </div>
               <p class="card-text mt-3"><a href="#"><small class="text-muted">See more</small></a></p>
           </div>
-          
+
           <div class="card p-2" style="border: none;">
             <div class="row d-none d-sm-none d-md-none d-lg-block d-xl-block">
               <div class="col-sm-12">
@@ -444,7 +333,7 @@
               <h5 class="card-title mb-4">Card title</h5>
             <div class="row">
               <div class="col-sm-12">
-                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
+                <img class="card-img-top flex-grow-1" src="assets/img/about.jpg" alt="Card image cap">
               </div>
             </div>
               <p class="card-text mt-4"><a href="#"><small class="text-muted">See more</small></a></p>
@@ -453,28 +342,28 @@
           <div class="card p-2 py-4">
               <h5 class="card-title mb-4">Card title</h5>
             <div class="row">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about2.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about2.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
             </div>
             <div class="row mt-3">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about3.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about3.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about4.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about4.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
@@ -487,28 +376,28 @@
           <div class="card p-2 py-4">
               <h5 class="card-title mb-4">Card title</h5>
             <div class="row">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about2.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about2.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
             </div>
             <div class="row mt-3">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about3.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about3.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about4.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about4.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
@@ -516,32 +405,32 @@
             </div>
               <p class="card-text mt-3"><a href="#"><small class="text-muted">See more</small></a></p>
           </div>
-          
+
           <div class="card p-2 py-4">
               <h5 class="card-title mb-4">Card title</h5>
             <div class="row">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about2.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about2.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
             </div>
             <div class="row mt-3">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about3.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about3.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about4.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about4.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
@@ -554,7 +443,7 @@
               <h5 class="card-title mb-4">Card title</h5>
             <div class="row">
               <div class="col-sm-12">
-                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
+                <img class="card-img-top flex-grow-1" src="assets/img/about.jpg" alt="Card image cap">
               </div>
             </div>
               <p class="card-text mt-4"><a href="#"><small class="text-muted">See more</small></a></p>
@@ -564,28 +453,28 @@
           <div class="card p-2 py-4">
               <h5 class="card-title mb-4">Card title</h5>
             <div class="row">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about2.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about2.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
             </div>
             <div class="row mt-3">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about3.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about3.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about4.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about4.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
@@ -594,6 +483,23 @@
               <p class="card-text mt-3"><a href="#"><small class="text-muted">See more</small></a></p>
           </div>
 
+      </div>
+
+      <div class="ext container-fluid my-4 d-none">
+        <div class="card p-5 h-100 w-100">
+          <h4>
+            Best sellers
+            &nbsp;&nbsp;
+            <a href="#" style="font-size: small;">See more</a>
+          </h4>
+
+          <div class="d-flex mt-4" style="height: 200px;">
+            <div class="bg-img h-100 mx-3" style="width: 200px; background-image: url('assets/img/about.jpg');"></div>
+            <div class="bg-img h-100 mx-3" style="width: 200px; background-image: url('assets/img/about2.jpg');"></div>
+            <div class="bg-img h-100 mx-3" style="width: 200px; background-image: url('assets/img/about4.jpg');"></div>
+            <div class="bg-img h-100 mx-3" style="width: 200px; background-image: url('assets/img/about3.jpg');"></div>
+          </div>
+        </div>
       </div>
 
     </section>
@@ -602,13 +508,13 @@
       <div class="">
         <a href="#"><img src="assets/img/big.jpg" class ="img-responsive img-fluid"></a>
       </div>
-    </div> 
+    </div>
 
     <div class="container-fluid mb-4 text-center">
       <div class="container">
         <a href="#"><img src="assets/img/big2.jpg" class ="img-responsive img-fluid"></a>
       </div>
-    </div> 
+    </div>
 
 
     <section id="featured" class="featured">
@@ -616,61 +522,28 @@
           <div class="card p-2 py-4">
               <h5 class="card-title mb-4">Card title</h5>
             <div class="row">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about2.jpg" alt="Card image cap">
-                <small class="text-muted">
-                  price
-                </small>
-              </div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about3.jpg" alt="Card image cap">
-                <small class="text-muted">
-                  price
-                </small>
-              </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about4.jpg" alt="Card image cap">
-                <small class="text-muted">
-                  price
-                </small>
-              </div>
-            </div>
-              <p class="card-text mt-3"><a href="#"><small class="text-muted">See more</small></a></p>
-          </div>
-          
-          <div class="card p-2 py-4">
-              <h5 class="card-title mb-4">Card title</h5>
-            <div class="row">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
-                <small class="text-muted">
-                  price
-                </small>
-              </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about2.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about2.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
             </div>
             <div class="row mt-3">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about3.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about3.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about4.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about4.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
@@ -679,108 +552,31 @@
               <p class="card-text mt-3"><a href="#"><small class="text-muted">See more</small></a></p>
           </div>
 
-          <div class="card p-3 py-4">
-              <h5 class="card-title mb-4">Card title</h5>
-            <div class="row">
-              <div class="col-sm-12">
-                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
-              </div>
-            </div>
-              <p class="card-text mt-4"><a href="#"><small class="text-muted">See more</small></a></p>
-          </div>
-
           <div class="card p-2 py-4">
               <h5 class="card-title mb-4">Card title</h5>
             <div class="row">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about2.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about2.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
             </div>
             <div class="row mt-3">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about3.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about3.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about4.jpg" alt="Card image cap">
-                <small class="text-muted">
-                  price
-                </small>
-              </div>
-            </div>
-              <p class="card-text mt-3"><a href="#"><small class="text-muted">See more</small></a></p>
-          </div>
-
-
-          <div class="card p-2 py-4">
-              <h5 class="card-title mb-4">Card title</h5>
-            <div class="row">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
-                <small class="text-muted">
-                  price
-                </small>
-              </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about2.jpg" alt="Card image cap">
-                <small class="text-muted">
-                  price
-                </small>
-              </div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about3.jpg" alt="Card image cap">
-                <small class="text-muted">
-                  price
-                </small>
-              </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about4.jpg" alt="Card image cap">
-                <small class="text-muted">
-                  price
-                </small>
-              </div>
-            </div>
-              <p class="card-text mt-3"><a href="#"><small class="text-muted">See more</small></a></p>
-          </div>
-          
-          <div class="card p-2 py-4">
-              <h5 class="card-title mb-4">Card title</h5>
-            <div class="row">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
-                <small class="text-muted">
-                  price
-                </small>
-              </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about2.jpg" alt="Card image cap">
-                <small class="text-muted">
-                  price
-                </small>
-              </div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about3.jpg" alt="Card image cap">
-                <small class="text-muted">
-                  price
-                </small>
-              </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about4.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about4.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
@@ -793,7 +589,117 @@
               <h5 class="card-title mb-4">Card title</h5>
             <div class="row">
               <div class="col-sm-12">
-                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
+                <img class="card-img-top flex-grow-1" src="assets/img/about.jpg" alt="Card image cap">
+              </div>
+            </div>
+              <p class="card-text mt-4"><a href="#"><small class="text-muted">See more</small></a></p>
+          </div>
+
+          <div class="card p-2 py-4">
+              <h5 class="card-title mb-4">Card title</h5>
+            <div class="row">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about.jpg" alt="Card image cap">
+                <small class="text-muted">
+                  price
+                </small>
+              </div>
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about2.jpg" alt="Card image cap">
+                <small class="text-muted">
+                  price
+                </small>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about3.jpg" alt="Card image cap">
+                <small class="text-muted">
+                  price
+                </small>
+              </div>
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about4.jpg" alt="Card image cap">
+                <small class="text-muted">
+                  price
+                </small>
+              </div>
+            </div>
+              <p class="card-text mt-3"><a href="#"><small class="text-muted">See more</small></a></p>
+          </div>
+
+
+          <div class="card p-2 py-4">
+              <h5 class="card-title mb-4">Card title</h5>
+            <div class="row">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about.jpg" alt="Card image cap">
+                <small class="text-muted">
+                  price
+                </small>
+              </div>
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about2.jpg" alt="Card image cap">
+                <small class="text-muted">
+                  price
+                </small>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about3.jpg" alt="Card image cap">
+                <small class="text-muted">
+                  price
+                </small>
+              </div>
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about4.jpg" alt="Card image cap">
+                <small class="text-muted">
+                  price
+                </small>
+              </div>
+            </div>
+              <p class="card-text mt-3"><a href="#"><small class="text-muted">See more</small></a></p>
+          </div>
+
+          <div class="card p-2 py-4">
+              <h5 class="card-title mb-4">Card title</h5>
+            <div class="row">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about.jpg" alt="Card image cap">
+                <small class="text-muted">
+                  price
+                </small>
+              </div>
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about2.jpg" alt="Card image cap">
+                <small class="text-muted">
+                  price
+                </small>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about3.jpg" alt="Card image cap">
+                <small class="text-muted">
+                  price
+                </small>
+              </div>
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about4.jpg" alt="Card image cap">
+                <small class="text-muted">
+                  price
+                </small>
+              </div>
+            </div>
+              <p class="card-text mt-3"><a href="#"><small class="text-muted">See more</small></a></p>
+          </div>
+
+          <div class="card p-3 py-4">
+              <h5 class="card-title mb-4">Card title</h5>
+            <div class="row">
+              <div class="col-sm-12">
+                <img class="card-img-top flex-grow-1" src="assets/img/about.jpg" alt="Card image cap">
               </div>
             </div>
               <p class="card-text mt-4"><a href="#"><small class="text-muted">See more</small></a></p>
@@ -803,28 +709,28 @@
           <div class="card p-2 py-4">
               <h5 class="card-title mb-4">Card title</h5>
             <div class="row">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about2.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about2.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
             </div>
             <div class="row mt-3">
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about3.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about3.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
               </div>
-              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img class="card-img-top" src="assets/img/about4.jpg" alt="Card image cap">
+              <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex flex-column">
+                <img class="card-img-top flex-grow-1" src="assets/img/about4.jpg" alt="Card image cap">
                 <small class="text-muted">
                   price
                 </small>
@@ -1013,6 +919,116 @@
   <script type="text/javascript">
   	$('[data-sidenav]').sidenav();
   </script>
+
+  <style>
+    @media only screen and (min-width: 992px) {
+      #featured:first-of-type {
+        position: relative;
+        top: -320px;
+        z-index: 100;
+        background: linear-gradient(170deg, rgba(255,255,255,0) 0%, rgb(234, 237, 237) 100%);
+        padding-top: 30px;
+      }
+
+      #featured .ext {
+        display: block !important;
+        position: absolute;
+        top: calc(90% + 25px);
+      }
+
+      .flex-direction-nav {
+        position: absolute;
+        top: 150px;
+        width: 100%;
+      }
+    }
+
+    body {
+      background: #eaeded;
+    }
+      .cp {
+        padding: .8rem 2rem;
+        font-weight: 600;
+        margin-right: 0 !important;
+      }
+
+      a.cp {
+        color: #222;
+        font-size: .95rem;
+      }
+
+      a.cp:hover {
+        background: #d7d7d7;
+      }
+
+      .cd {
+        position: relative;
+      }
+
+      .cd .icon {
+        color: #777;
+      }
+
+      .cd:hover .icon {
+        color: #222;
+      }
+
+      .sidenav-me {
+        position: relative;
+      }
+
+      .sidenav-me.hide *{
+        display: none !important;
+      }
+
+      .cd-main {
+        position: absolute;
+        top: 61px;
+        width: 100%;
+        height: 100%;
+        z-index: 999999;
+        background: white;
+        transform: translateX(-100%);
+        -webkit-animation: moveOut .4s ease forwards;
+        animation: moveOut .4s ease forwards;
+      }
+
+      .cd-main.active{
+        -webkit-animation: move .3s ease forwards;
+        animation: move .3s ease forwards;
+      }
+
+      @keyframes move {
+        from {
+          transform: translateX(-100%);
+          opacity: 0;
+        }
+
+        to {
+          transform: translateX(0%);
+          opacity: 1;
+        }
+      }
+
+      @keyframes moveOut {
+        from {
+          transform: translateX(0%);
+          opacity: 1;
+        }
+
+        to {
+          transform: translateX(-100%);
+          opacity: 0;
+        }
+      }
+
+      .bg-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 1rem;
+      }
+  </style>
 
 </body>
 
